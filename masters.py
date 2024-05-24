@@ -71,7 +71,7 @@ def populate_db(docs):
     # Function to check if a collection exists
     def collection_exists(client, name):
         collections = client.list_collections()
-        return any(collection['name'] == name for collection in collections)
+        return any(collection.name == name for collection in collections)
 
     # Check if the collection exists
     if collection_exists(chroma_client, collection_name):
