@@ -34,7 +34,7 @@ def query_ai_caddy(question):
 
   load_dotenv()
 
-  client = OpenAI()
+  client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
   completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
