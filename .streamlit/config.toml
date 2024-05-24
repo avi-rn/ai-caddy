@@ -1,0 +1,76 @@
+# ~/.streamlit/config.toml
+
+# Basic configuration
+[server]
+port = 8501
+baseUrlPath = ""
+enableCORS = true
+headless = true
+maxUploadSize = 200
+
+# Theme settings
+[theme]
+primaryColor = "#F63366"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = true
+serverAddress = "localhost"
+serverPort = 8501
+
+# Caching configuration
+[caching]
+maxSize = 0
+ttl = 0
+
+# Client configuration
+[client]
+customHeader = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #036635;
+    color: #FFCC00;
+}
+
+[data-testid="stHeader"] {
+    background-color: #036635;
+    color: #FFCC00;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #036635;
+    color: #FFCC00;
+}
+
+h2, h3, p, div {
+    color: #FFCC00;
+}
+
+/* Update button styling */
+button.streamlit-button {
+    background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+
+/* Update button hover styling */
+button.streamlit-button:hover {
+    background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+
+/* Update button active styling */
+button.streamlit-button:active {
+    background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+
+/* Update button focus styling */
+button.streamlit-button:focus {
+    background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+</style>
+"""
