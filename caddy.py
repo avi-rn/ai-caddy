@@ -43,7 +43,7 @@ def query_ai_caddy(question):
   completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
-      {"role": "system", "content": "Act as a golf caddy to minimize a player's strokes on Augusta National Golf Course. Be decisive in your advice. Push back against risky shots."},
+      {"role": "system", "content": "Act as a golf caddy to minimize a player's strokes on Augusta National Golf Course. Be decisive in your advice. Push back against risky shots and provide as much context as possible."},
       {"role": "user", "content": query}
     ]
   )
