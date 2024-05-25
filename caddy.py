@@ -104,7 +104,7 @@ st.markdown(page_bg_css, unsafe_allow_html=True)
 # Streamlit UI
 st.title("AI Caddy @ Augusta National")
 st.write("Ask for advice on any shot about Augusta National Golf Course and hear from our AI Caddy. The more information you provide, the better the response will be.")
-st.write("Example: I am teeing off on Hole 1 - Tea Olive, what club should I hit? I am a 15 handicapper who tends to slice it.")
+st.write("Example: I am teeing off on Hole 1, what club should I hit? I am a 15 handicapper who tends to slice it.")
 
 # User input
 user_input = st.text_input("Ask your question here:", key="user_input")
