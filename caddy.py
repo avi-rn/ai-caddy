@@ -103,7 +103,6 @@ st.markdown(page_bg_css, unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("AI Caddy @ Augusta National")
-st.write("Avi Rajendra-Nicolucci | linkedin.com/in/avirn/")
 st.write("Ask for advice on any shot about Augusta National Golf Course and hear from our AI Caddy. The more information you provide, the better the response will be.")
 st.write("Example: I am teeing off on Hole 1, what club should I hit? I am a 15 handicapper who tends to slice it.")
 
@@ -125,3 +124,4 @@ except Exception as e:
     st.error("An error occurred while processing your request. Please try again later.")
     st.write(e)  # Optionally, write the error details for debugging
 
+st.write("Avi Rajendra-Nicolucci | linkedin.com/in/avirn/ | @analyticsavi on X")
