@@ -95,22 +95,11 @@ button.streamlit-button:focus {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
-
-/* Upper-left text styling */
-.upper-left-text {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    color: #FFCC00;
-    font-size: 20px;
-}
 </style>
 """
 
 # Add the JavaScript and CSS code to the Streamlit app
 st.markdown(page_bg_css, unsafe_allow_html=True)
-# Add upper left text
-st.markdown('<div class="upper-left-text">By Avi Rajendra-Nicolucci</div>', unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("AI Caddy @ Augusta National")
