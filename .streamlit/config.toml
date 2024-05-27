@@ -72,13 +72,5 @@ button.streamlit-button:focus {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
-
-.upper-left-text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #FFCC00;  /* Masters Yellow color */
-    font-size: 20px; /* Adjust size as needed */
-}
 </style>
 """
