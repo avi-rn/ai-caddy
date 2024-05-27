@@ -43,7 +43,7 @@ def query_ai_caddy(question):
   completion = client.chat.completions.create(
     model="gpt-3.5-turbo",
     messages=[
-      {"role": "system", "content": "Act as a golf caddy to minimize a player's strokes on Augusta National Golf Course. Be decisive in your advice. Push back against risky shots and provide as much context as possible."},
+      {"role": "system", "content": "Act as an expert golf caddy to minimize a player's strokes on Augusta National Golf Course. Be decisive in your advice. Push back against risky shots and provide as much context as possible."},
       {"role": "user", "content": query}
     ]
   )
@@ -103,6 +103,7 @@ st.markdown(page_bg_css, unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("AI Caddy @ Augusta National")
+st.write("Avi Rajendra-Nicolucci, @analyticsavi on X, www.linkedin.com/in/avirn")
 st.write("Ask for advice on any shot about Augusta National Golf Course and hear from our AI Caddy. The more information you provide, the better the response will be.")
 st.write("Example: I am teeing off on Hole 1, what club should I hit? I am a 15 handicapper who tends to slice it.")
 
