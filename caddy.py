@@ -72,44 +72,24 @@ h2, h3, p, div {
     color: #FFCC00;
 }
 
-/* Update button styling */
-div.stButton > button {
-    background-color: #FFCC00 !important; /* Yellow background */
-    color: #036635 !important; /* Green text */
+button.css-1cpxqw2 {
+    background-color: #FFCC00 !important;
+    color: #036635 !important;
 }
 
-div.stButton > button > div {
-    color: #036635 !important; /* Green text */
+button.css-1cpxqw2:hover {
+    background-color: #FFCC00 !important;
+    color: #036635 !important;
 }
 
-/* Update button hover styling */
-div.stButton > button:hover {
-    background-color: #FFCC00 !important; /* Yellow background */
-    color: #036635 !important; /* Green text */
+button.css-1cpxqw2:active {
+    background-color: #FFCC00 !important;
+    color: #036635 !important;
 }
 
-div.stButton > button:hover > div {
-    color: #036635 !important; /* Green text */
-}
-
-/* Update button active styling */
-div.stButton > button:active {
-    background-color: #FFCC00 !important; /* Yellow background */
-    color: #036635 !important; /* Green text */
-}
-
-div.stButton > button:active > div {
-    color: #036635 !important; /* Green text */
-}
-
-/* Update button focus styling */
-div.stButton > button:focus {
-    background-color: #FFCC00 !important; /* Yellow background */
-    color: #036635 !important; /* Green text */
-}
-
-div.stButton > button:focus > div {
-    color: #036635 !important; /* Green text */
+button.css-1cpxqw2:focus {
+    background-color: #FFCC00 !important;
+    color: #036635 !important;
 }
 </style>
 """
