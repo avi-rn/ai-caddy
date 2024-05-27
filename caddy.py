@@ -73,25 +73,25 @@ h2, h3, p, div {
 }
 
 /* Update button styling */
-button.streamlit-button {
+div.stButton > button {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
 
 /* Update button hover styling */
-button.streamlit-button:hover {
+div.stButton > button:hover {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
 
 /* Update button active styling */
-button.streamlit-button:active {
+div.stButton > button:active {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
 
 /* Update button focus styling */
-button.streamlit-button:focus {
+div.stButton > button:focus {
     background-color: #FFCC00 !important; /* Yellow background */
     color: #036635 !important; /* Green text */
 }
