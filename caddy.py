@@ -78,9 +78,17 @@ div.stButton > button {
     color: #036635 !important; /* Green text */
 }
 
+div.stButton > button > div {
+    color: #036635 !important; /* Green text */
+}
+
 /* Update button hover styling */
 div.stButton > button:hover {
     background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+
+div.stButton > button:hover > div {
     color: #036635 !important; /* Green text */
 }
 
@@ -90,9 +98,17 @@ div.stButton > button:active {
     color: #036635 !important; /* Green text */
 }
 
+div.stButton > button:active > div {
+    color: #036635 !important; /* Green text */
+}
+
 /* Update button focus styling */
 div.stButton > button:focus {
     background-color: #FFCC00 !important; /* Yellow background */
+    color: #036635 !important; /* Green text */
+}
+
+div.stButton > button:focus > div {
     color: #036635 !important; /* Green text */
 }
 </style>
