@@ -97,29 +97,13 @@ button.streamlit-button:focus {
 }
 </style>
 """
-# Custom CSS to position text in the upper left-hand corner
-custom_css = """
-<style>
-.upper-left-text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    color: #FFCC00;  /* Masters Yellow color */
-    font-size: 20px; /* Adjust size as needed */
-}
-</style>
-"""
 
-# Inject the CSS into the Streamlit app
-st.markdown(custom_css, unsafe_allow_html=True)
-
-# Add the text with the custom class
-st.markdown('<div class="upper-left-text">Avi Rajendra-Nicolucci, @analyticsavi on X, www.linkedin.com/in/avirn</div>', unsafe_allow_html=True)
 # Add the JavaScript and CSS code to the Streamlit app
 st.markdown(page_bg_css, unsafe_allow_html=True)
 
 # Streamlit UI
 st.title("AI Caddy @ Augusta National")
+st.write("Avi Rajendra-Nicolucci, @analyticsavi on X, www.linkedin.com/in/avirn")
 st.write("Ask for advice on any shot about Augusta National Golf Course and hear from our AI Caddy. The more information you provide, the better the response will be.")
 st.write("Example: I am teeing off on Hole 1, what club should I hit? I am a 15 handicapper who tends to slice it.")
 
