@@ -7,4 +7,4 @@ Gives advice on any hole at Augusta National.
 
 `caddy.py` contains the frontend and LLM-querying.
 
-Deployed to ai-caddy.streamlit.app
+Deployed at [ai-caddy.streamlit.app](https://ai-caddy.streamlit.app/)
