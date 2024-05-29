@@ -6,3 +6,5 @@ Gives advice on any hole at Augusta National.
 `masters.py` scrapes and stores the data.
 
 `caddy.py` contains the frontend and LLM-querying.
+
+Deployed to ai-caddy.streamlit.app
